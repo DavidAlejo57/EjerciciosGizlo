@@ -14,6 +14,13 @@ public class Fibonacci {
 		return b;
 	}
 	
+	public static void sucesion(int h) {
+		for(int i = 0; i < h; i++) {
+			System.out.print(serie(i) + ", ");
+		}
+		System.out.println();
+	}
+	
 	private static int serie(int v) {
 		if(v == 0 || v== 1) {
 			return v;
